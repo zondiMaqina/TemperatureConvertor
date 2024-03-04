@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Temperature Convertor
+    </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="convertor">
+        <h2 id="title">
+            Temperature Convertor
+        </h2>
+
+        <label for="temp-input" class=" label-one">
+            <p>
+                Type in your Temperature: <sup>o</sup><span id="change">C</span>
+            </p>
+
+            <input type="number" id="temp-input">
+
+            <button onclick="view()">
+                Check Conversion
+            </button>
+        </label>
+
+        <label for="temp-scale" class="label-two">
+
+            <input type="radio" name="temperature" id="convert-C">
+                Celcius to Farads | Faradheints
+            <br>
+            <br>
+            <input type="radio" id="convert-F" name="temperature">
+                Farads to Celcius | Celcius
+
+        </label>
+        <h2 id="output">
+           Results  
+        </h2>  
+        
+        <button onclick="reset()">
+            Reset
+        </button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
