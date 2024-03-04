@@ -1,0 +1,94 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+#title{
+    color: darkslategray;
+    font-size: 1.6rem;
+}
+
+.convertor{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    border: 2px solid;
+    border: 2px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 0 20px orange;
+    background-color: lightgrey;
+}
+
+.label-one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="number"]{
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    border: 2px solid orange;
+    font-weight: bold;
+    color: darkred;
+}
+
+input[type="radio"]{
+    height: 15px;
+    width: 15px;
+}
+
+button{
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    font-size: medium;
+    color: white;
+    background-color: darkred;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#output{
+    color: darkblue;
+    text-align: center;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: beige;
+}
+
+label{
+    color: darkslategray;
+    font-weight: bolder;
+    font-size: medium;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+span{
+    color: darkslategrey;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+sup{
+    color: black;
+}
+
+button[onclick="reset()"]{
+    background-color: darkgrey;
+    color: black;
+}
