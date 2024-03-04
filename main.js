@@ -24,13 +24,13 @@ function view(){
         formula = formula.toFixed(2)
 
         elemnt1.textContent = `C`
-        elemnt5.textContent = formula + ` C`;
+        elemnt5.textContent = formula + ` F`;
     } else if (elemnt4.checked){
         formula = (input - 32) * (5 / 9)
         formula = formula.toFixed(2)
 
         elemnt1.textContent = `F`
-        elemnt5.textContent = formula + ` F`;
+        elemnt5.textContent = formula + ` C`;
     }
 
 }
